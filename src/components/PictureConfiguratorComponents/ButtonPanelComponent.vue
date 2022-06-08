@@ -4,7 +4,7 @@
                             class="plusBtn"><i class="fa-solid fa-circle-plus"></i></div>
                     </div>
                     <div class="block-tools">
-                        <div class="text-center" v-if="pictureElementsCopy[4].buttons.length == 0"> Press the ADD button</div>
+                        <div class="text-center" v-if="pictureElementsCopy[4].buttons.length == 0"> Press the ADD button !</div>
                         <div v-for="(button, index) in pictureElementsCopy[4].buttons" :key="index" style="padding:6px">
                             <div class="buttonsdiv">
                                 <div class="buttonsdiv-title text-center">Button {{ index + 1 }}
